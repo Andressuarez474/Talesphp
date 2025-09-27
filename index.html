@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Celulares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Formulario de Computadores</h2>
+    <form method="post" action="procesar.php">
+        
+        <label>Nombre del celular 1:</label>
+        <input type="text" name="producto1" value="XIAOMI Redmi 13" readonly>
+        <label>Precio del celular 1:</label>
+        <input type="number" step="0.01" name="precio1" value="5200" readonly>
+
+        <label>Nombre del celular 2:</label>
+        <input type="text" name="producto2" value="SAMSUNG galaxy s2" readonly>
+        <label>Precio del celular 2:</label>
+        <input type="number" step="0.01" name="precio2" value="7200" readonly>
+
+        <label>Nombre del celular 3:</label>
+        <input type="text" name="producto3" value="IPHONE 14 pro" readonly>
+        <label>Precio del celular 3:</label>
+        <input type="number" step="0.01" name="precio3" value="9600" readonly>
+
+        <button type="submit">Calcular Total</button>
+    </form>
+</div>
+</body>
+</html>
