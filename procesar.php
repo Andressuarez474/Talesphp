@@ -3,51 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado - Computadores</title>
+    <title>Resultado - Celulares</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #eef2f7;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .resultado {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-        .detalle {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 15px;
-        }
-        strong {
-            color: #007bff;
-        }
-        a {
-            display: block;
-            margin-top: 15px;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            background: #007bff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        a:hover {
-            background: #0056b3;
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .resultado {
+        background: #fff; 
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    }
+    h2 {
+        text-align: center;
+        color: #555; 
+    }
+    .detalle {
+        background: #f7f7f7; 
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        color: #333; 
+    }
+    strong {
+        color: #888;
+    }
+    a {
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background: #8c8c8c; 
+        padding: 10px;
+        border-radius: 5px;
+    }
+    a:hover {
+        background: #666; 
+    }
+</style>
 </head>
 <body>
 <div class="resultado">
